@@ -25,7 +25,7 @@ function Index() {
       <section className="border-b border-border">
         <div className="mx-auto grid max-w-[1400px] grid-cols-1 lg:grid-cols-2">
           <div className="flex flex-col justify-between px-6 py-16 md:px-10 md:py-24 lg:min-h-[80vh]">
-            <p className="eyebrow text-muted-foreground">Caderno nº 14 · 2026</p>
+            <p className="eyebrow text-muted-foreground">Caderno nº 12 · 2026</p>
 
             <div className="my-12 lg:my-0">
               <h1 className="text-display text-[clamp(3rem,8vw,7.5rem)]">
@@ -80,7 +80,7 @@ function Index() {
             <div className="lg:col-span-4">
               <p className="eyebrow text-muted-foreground">Disciplinas</p>
               <h2 className="text-display mt-4 text-5xl md:text-6xl">
-                Quatro<br />ofícios,<br />uma só mão.
+                Vários<br />ofícios,<br />uma só mão.
               </h2>
             </div>
             <div className="lg:col-span-8 lg:pl-10">
