@@ -47,7 +47,7 @@ function Sobre() {
             </div>
             <div className="grid grid-cols-3 gap-6 border-t border-border pt-8">
               {[
-                ["12", "anos desenhando"],
+                ["12", "CIDADES VISITADAS"],
                 ["80+", "cadernos costurados"],
                 ["12", "anos desenhando"],
               ].map(([n, l]) => (
