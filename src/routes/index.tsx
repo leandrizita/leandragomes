@@ -80,7 +80,7 @@ function Index() {
             <div className="lg:col-span-4">
               <p className="eyebrow text-muted-foreground">Disciplinas</p>
               <h2 className="text-display mt-4 text-5xl md:text-6xl">
-                Quatro<br />ofícios,<br />uma só mão.
+                Vários<br />ofícios,<br />uma só mão.
               </h2>
             </div>
             <div className="lg:col-span-8 lg:pl-10">
