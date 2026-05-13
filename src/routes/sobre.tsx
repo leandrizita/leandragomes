@@ -49,7 +49,7 @@ function Sobre() {
               {[
                 ["12", "anos desenhando"],
                 ["80+", "cadernos costurados"],
-                ["4", "cidades retratadas"],
+                ["2019", "desde o primeiro traço"],
               ].map(([n, l]) => (
                 <div key={l}>
                   <p className="text-display text-4xl md:text-5xl">{n}</p>
