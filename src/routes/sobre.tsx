@@ -69,8 +69,8 @@ function Sobre() {
           <p className="eyebrow text-muted-foreground">Linha do tempo</p>
           <div className="mt-12 grid grid-cols-1 gap-px bg-border md:grid-cols-2">
             {[
-              ["2019", "Primeiro caderno preenchido em uma viagem a Salvador."],
-              ["2018", "Início do trabalho com encadernação artesanal."],
+              ["2018", "Primeiro caderno preenchido em uma viagem a Salvador."],
+              ["2019", "Início do trabalho com encadernação artesanal."],
               ["2019", "Primeira exposição coletiva de urban sketching."],
               ["2024", "Série fotográfica em filme P&B publicada em revista independente."],
             ].map(([year, text]) => (
