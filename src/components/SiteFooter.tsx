@@ -29,7 +29,7 @@ export function SiteFooter() {
           <ul className="mt-4 space-y-2 text-sm">
             <li>Instagram — @atelier</li>
             <li>Behance — /atelier</li>
-            <li>ola@atelier.art</li>
+            <li>Brasília — Curitiba</li>
           </ul>
         </div>
       </div>
