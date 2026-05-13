@@ -52,7 +52,7 @@ function Contato() {
               onSubmit={(e) => {
                 e.preventDefault();
                 const data = new FormData(e.currentTarget);
-                window.location.href = `mailto:ola@atelier.art?subject=Encomenda — ${encodeURIComponent(String(data.get("nome")))}&body=${encodeURIComponent(String(data.get("mensagem")))}`;
+                window.location.href = `mailto:artleagee@gmail.com?subject=Encomenda — ${encodeURIComponent(String(data.get("nome")))}&body=${encodeURIComponent(String(data.get("mensagem")))}`;
               }}
             >
               <Field label="Nome" name="nome" />
