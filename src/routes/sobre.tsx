@@ -71,7 +71,7 @@ function Sobre() {
             {[
               ["2014", "Primeiro caderno preenchido em uma viagem a Porto."],
               ["2018", "Início do trabalho com encadernação artesanal."],
-              ["2021", "Primeira exposição coletiva de urban sketching."],
+              ["2019", "Primeira exposição coletiva de urban sketching."],
               ["2024", "Série fotográfica em filme P&B publicada em revista independente."],
             ].map(([year, text]) => (
               <div key={year} className="bg-background p-8 md:p-10">
