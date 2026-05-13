@@ -37,7 +37,7 @@ function Contato() {
               </div>
               <div>
                 <dt className="eyebrow text-muted-foreground">Atelier</dt>
-                <dd className="mt-1 text-xl">Rua das Flores, 23 — Lisboa</dd>
+                <dd className="mt-1 text-xl">Quadra 801 - Brasília</dd>
               </div>
               <div>
                 <dt className="eyebrow text-muted-foreground">Visitas</dt>
