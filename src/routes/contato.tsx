@@ -33,7 +33,7 @@ function Contato() {
             <dl className="mt-12 space-y-6 border-t border-border pt-8">
               <div>
                 <dt className="eyebrow text-muted-foreground">E-mail</dt>
-                <dd className="mt-1 text-xl">Brasília — Curitiba</dd>
+                <dd className="mt-1 text-xl"><a href="mailto:artleagee@gmail.com" className="border-b border-ink pb-1">artleagee@gmail.com</a></dd>
               </div>
               <div>
                 <dt className="eyebrow text-muted-foreground">Atelier</dt>
