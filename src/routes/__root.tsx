@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Atelier — Aquarela, Ilustração Urbana & Encadernação" },
       { name: "description", content: "Site pessoal: urban sketching, ilustração em aquarela, encadernação artesanal e fotografia." },
       { name: "author", content: "Atelier" },
-      { property: "og:title", content: "Atelier — Aquarela & Papel" },
-      { property: "og:description", content: "Urban sketching, aquarela, encadernação artesanal e fotografia." },
+      { property: "og:title", content: "Atelier — Aquarela, Ilustração Urbana & Encadernação" },
+      { property: "og:description", content: "Site pessoal: urban sketching, ilustração em aquarela, encadernação artesanal e fotografia." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Atelier — Aquarela, Ilustração Urbana & Encadernação" },
+      { name: "twitter:description", content: "Site pessoal: urban sketching, ilustração em aquarela, encadernação artesanal e fotografia." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8d721fa8-819b-4d58-8fa3-0694612e8106/id-preview-2fb0c408--582c4409-ce2b-4ead-a9b6-6d7d3e885c16.lovable.app-1778701296695.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8d721fa8-819b-4d58-8fa3-0694612e8106/id-preview-2fb0c408--582c4409-ce2b-4ead-a9b6-6d7d3e885c16.lovable.app-1778701296695.png" },
     ],
     links: [
       {
