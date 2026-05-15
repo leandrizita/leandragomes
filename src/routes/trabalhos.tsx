@@ -5,6 +5,14 @@ import w1 from "@/assets/work-1-new.jpg";
 import w2 from "@/assets/work-2.jpg";
 import w3 from "@/assets/work-3.jpg";
 import w4 from "@/assets/work-4-new.jpg";
+import w5 from "@/assets/work-5.jpg";
+import w6 from "@/assets/work-6.jpg";
+import w7 from "@/assets/work-7.jpg";
+import w8 from "@/assets/work-8.jpg";
+import w9 from "@/assets/work-9.jpg";
+import w10 from "@/assets/work-10.jpg";
+import w11 from "@/assets/work-11.jpg";
+import w12 from "@/assets/work-12.jpg";
 import hero from "@/assets/hero-sketch.jpg";
 
 export const Route = createFileRoute("/trabalhos")({
@@ -25,6 +33,14 @@ const works = [
   { src: w4, title: "​Estação Central de metrô - Brasília/DF", year: "2025", tag: "AQUARELA E NANQUIM", span: "md:col-span-5" },
   { src: w2, title: "Caderno em couro nº 9", year: "2025", tag: "Encadernação", span: "md:col-span-7" },
   { src: w3, title: "Beco silencioso", year: "2025", tag: "Filme 35mm", span: "md:col-span-12" },
+  { src: w5, title: "Fórmula clássica", year: "2025", tag: "Aquarela", span: "md:col-span-6" },
+  { src: w6, title: "Paisagem em camadas", year: "2025", tag: "Aquarela", span: "md:col-span-6" },
+  { src: w7, title: "Jardim Botânico de Curitiba", year: "2025", tag: "Aquarela", span: "md:col-span-5" },
+  { src: w11, title: "Estufa e visitantes", year: "2025", tag: "Aquarela", span: "md:col-span-7" },
+  { src: w8, title: "Caderno de campo — Fusca", year: "2025", tag: "Urban Sketch", span: "md:col-span-7" },
+  { src: w9, title: "Varal noturno", year: "2025", tag: "Aquarela", span: "md:col-span-5" },
+  { src: w10, title: "Heroína em vermelho", year: "2025", tag: "Aquarela", span: "md:col-span-6" },
+  { src: w12, title: "Ferrari F1", year: "2025", tag: "Aquarela e Nanquim", span: "md:col-span-6" },
 ];
 
 function Trabalhos() {
