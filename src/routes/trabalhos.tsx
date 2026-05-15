@@ -22,7 +22,7 @@ export const Route = createFileRoute("/trabalhos")({
 const works = [
   { src: hero, title: "Esquina do café", year: "2026", tag: "Aquarela", span: "md:col-span-7" },
   { src: w1, title: "Eléctrico 28", year: "2026", tag: "Aquarela", span: "md:col-span-5" },
-  { src: w4, title: "Fachada de Alfama", year: "2025", tag: "Aquarela", span: "md:col-span-5" },
+  { src: w4, title: "​Estação Central de metrô - Brasília/DF", year: "2025", tag: "Aquarela", span: "md:col-span-5" },
   { src: w2, title: "Caderno em couro nº 9", year: "2025", tag: "Encadernação", span: "md:col-span-7" },
   { src: w3, title: "Beco silencioso", year: "2025", tag: "Filme 35mm", span: "md:col-span-12" },
 ];
