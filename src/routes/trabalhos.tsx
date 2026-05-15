@@ -34,7 +34,7 @@ const works = [
   { src: w2, title: "Caderno em couro nº 9", year: "2025", tag: "Encadernação", span: "md:col-span-7" },
   { src: w3, title: "Beco silencioso", year: "2025", tag: "Filme 35mm", span: "md:col-span-12" },
   { src: w5, title: "Fórmula clássica", year: "2026", tag: "AQUARELA", span: "md:col-span-6" },
-  { src: w6, title: "Paisagem em camadas", year: "2026", tag: "AQUARELA", span: "md:col-span-6" },
+  { src: w6, title: "Paisagem urbana em camadas", year: "2026", tag: "AQUARELA", span: "md:col-span-6" },
   { src: w7, title: "Carnaval em Pirinópolis/GO", year: "2026", tag: "AQUARELA", span: "md:col-span-5" },
   { src: w11, title: "O Jardim Botânico de Curitiba e seus visitantes", year: "2026", tag: "AQUARELA", span: "md:col-span-7" },
   { src: w8, title: "Caderno de campo — Encontro de Carros Antigos - Brasília/DF", year: "2023", tag: "URBAN SKETCH", span: "md:col-span-7" },
