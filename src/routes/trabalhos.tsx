@@ -13,6 +13,7 @@ import w9 from "@/assets/work-9.jpg";
 import w10 from "@/assets/work-10.jpg";
 import w11 from "@/assets/work-11.jpg";
 import w12 from "@/assets/work-12.jpg";
+import w13 from "@/assets/work-13.jpg";
 import hero from "@/assets/hero-sketch.jpg";
 
 export const Route = createFileRoute("/trabalhos")({
@@ -41,6 +42,7 @@ const works = [
   { src: w9, title: "Banda curitibana HEARTFIELD - Sheridan's Irish PUB - Curitiba/PR", year: "2026", tag: "AQUARELA", span: "md:col-span-5" },
   { src: w10, title: "Heroína em vermelho", year: "2026", tag: "AQUARELA", span: "md:col-span-6" },
   { src: w12, title: "Ferrari F1 - NIKI LAUDA", year: "2022", tag: "AQUARELA E NANQUIM", span: "md:col-span-6" },
+  { src: w13, title: "Entre linhas e papéis", year: "2026", tag: "ENCADERNAÇÃO", span: "md:col-span-12" },
 ];
 
 function Trabalhos() {
