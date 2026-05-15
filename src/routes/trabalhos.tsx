@@ -37,7 +37,7 @@ const works = [
   { src: w6, title: "Paisagem em camadas", year: "2019", tag: "Aquarela", span: "md:col-span-6" },
   { src: w7, title: "Carnaval em Pirinópolis/GO", year: "2019", tag: "Aquarela", span: "md:col-span-5" },
   { src: w11, title: "O Jardim Botânico de Curitiba e seus visitantes", year: "2019", tag: "Aquarela", span: "md:col-span-7" },
-  { src: w8, title: "Caderno de campo — Fusca", year: "2025", tag: "Urban Sketch", span: "md:col-span-7" },
+  { src: w8, title: "Caderno de campo — Encontro de Carros Antigos - Brasília/DF", year: "2024", tag: "Urban Sketch", span: "md:col-span-7" },
   { src: w9, title: "Varal noturno", year: "2019", tag: "Aquarela", span: "md:col-span-5" },
   { src: w10, title: "Heroína em vermelho", year: "2019", tag: "Aquarela", span: "md:col-span-6" },
   { src: w12, title: "Ferrari F1", year: "2019", tag: "Aquarela e Nanquim", span: "md:col-span-6" },
