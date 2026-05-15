@@ -40,7 +40,7 @@ const works = [
   { src: w8, title: "Caderno de campo — Encontro de Carros Antigos - Brasília/DF", year: "2023", tag: "URBAN SKETCH", span: "md:col-span-7" },
   { src: w9, title: "Banda curitibana HEARTFIELD - Sheridan's Irish PUB - Curitiba/PR", year: "2026", tag: "AQUARELA", span: "md:col-span-5" },
   { src: w10, title: "Heroína em vermelho", year: "2026", tag: "AQUARELA", span: "md:col-span-6" },
-  { src: w12, title: "Ferrari F1", year: "2026", tag: "AQUARELA E NANQUIM", span: "md:col-span-6" },
+  { src: w12, title: "Ferrari F1 - NIKI LAUDA", year: "2022", tag: "AQUARELA E NANQUIM", span: "md:col-span-6" },
 ];
 
 function Trabalhos() {
