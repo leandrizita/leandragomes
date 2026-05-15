@@ -15,7 +15,6 @@ import w11 from "@/assets/work-11.jpg";
 import w12 from "@/assets/work-12.jpg";
 import w13 from "@/assets/work-13.jpg";
 import w14 from "@/assets/work-14.jpg";
-import w15 from "@/assets/work-15.jpg";
 import hero from "@/assets/hero-sketch.jpg";
 
 export const Route = createFileRoute("/trabalhos")({
@@ -46,7 +45,6 @@ const works = [
   { src: w12, title: "Ferrari F1 - NIKI LAUDA", year: "2022", tag: "AQUARELA E NANQUIM", span: "md:col-span-6" },
   { src: w13, title: "Entre linhas e papéis", year: "2026", tag: "ENCADERNAÇÃO", span: "md:col-span-6" },
   { src: w14, title: "Identidade visual", year: "2026", tag: "DESIGN", span: "md:col-span-6" },
-  { src: w15, title: "Árvores tortas", year: "2026", tag: "FOTOGRAFIA", span: "md:col-span-12" },
 ];
 
 function Trabalhos() {
