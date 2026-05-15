@@ -4,7 +4,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import w1 from "@/assets/work-1.jpg";
 import w2 from "@/assets/work-2.jpg";
 import w3 from "@/assets/work-3.jpg";
-import w4 from "@/assets/work-4.jpg";
+import w4 from "@/assets/work-4-new.jpg";
 import hero from "@/assets/hero-sketch.jpg";
 
 export const Route = createFileRoute("/trabalhos")({
