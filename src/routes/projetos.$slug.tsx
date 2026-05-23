@@ -99,6 +99,7 @@ function ProjectDetail() {
           <div className="grid grid-cols-1 gap-x-6 gap-y-12 md:grid-cols-12 md:gap-x-8 md:gap-y-16">
             {slotsLayout.map((slot, i) => {
               const n = i + 1;
+              const work = project.works[i];
               return (
                 <figure key={n} className={`${slot.span} group flex flex-col gap-4`}>
                   <div
@@ -115,17 +116,18 @@ function ProjectDetail() {
                   </div>
                   <figcaption className="flex flex-col gap-1">
                     <div className="flex items-baseline justify-between gap-4">
-                      <span className="text-display text-xl md:text-2xl">Sem título nº {n}</span>
-                      <span className="eyebrow text-muted-foreground">2025</span>
+                      <span className="text-display text-xl md:text-2xl">{work.title}</span>
+                      <span className="eyebrow text-muted-foreground">{work.year}</span>
                     </div>
                     <span className="eyebrow text-muted-foreground">
-                      Aquarela sobre papel de algodão · 30 × 40 cm
+                      {work.technique} · {work.dimensions}
                     </span>
                   </figcaption>
                 </figure>
               );
             })}
           </div>
+
         </div>
       </section>
 
