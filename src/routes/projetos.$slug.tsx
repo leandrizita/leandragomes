@@ -129,8 +129,26 @@ function ProjectDetail() {
         </div>
       </section>
 
+      <section className="border-t border-border">
+        <div className="mx-auto flex max-w-[1400px] flex-col gap-6 px-6 py-16 md:flex-row md:items-center md:justify-between md:px-10 md:py-20">
+          <div>
+            <p className="eyebrow text-muted-foreground">Próximo projeto</p>
+            <Link
+              to="/projetos/$slug"
+              params={{ slug: next.slug }}
+              className="text-display mt-3 block text-4xl transition-opacity hover:opacity-70 md:text-6xl"
+            >
+              {next.title} →
+            </Link>
+          </div>
+          <Link to="/projetos" className="eyebrow inline-flex items-center gap-2 text-ink hover:opacity-70">
+            Ver todos
+          </Link>
+        </div>
+      </section>
 
       <SiteFooter />
+
     </div>
   );
 }
