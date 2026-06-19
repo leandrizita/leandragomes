@@ -3,6 +3,10 @@ export type Work = {
   technique: string;
   dimensions: string;
   year: string;
+  /** Caminho/URL da imagem da obra. Quando vazio, exibe placeholder numerado. */
+  image?: string;
+  /** Texto alternativo da imagem (acessibilidade). */
+  imageAlt?: string;
 };
 
 export type Project = {
@@ -24,6 +28,8 @@ const placeholderWorks = (count: number, defaultYear: string): Work[] =>
     technique: "Aquarela sobre papel de algodão",
     dimensions: "30 × 40 cm",
     year: defaultYear,
+    image: "",
+    imageAlt: "",
   }));
 
 export const projects: Project[] = [
