@@ -1,3 +1,13 @@
+import img01 from "@/assets/aquarelauto/Image_20260514_00012.jpg.asset.json";
+import img02 from "@/assets/aquarelauto/Image_20260514_0022.jpg.asset.json";
+import img03 from "@/assets/aquarelauto/Image_20260514_0023.jpg.asset.json";
+import img04 from "@/assets/aquarelauto/Image_20260514_0024.jpg.asset.json";
+import img05 from "@/assets/aquarelauto/Image_20260514_0028.jpg.asset.json";
+import img06 from "@/assets/aquarelauto/Image_20260514_0029.jpg.asset.json";
+import img07 from "@/assets/aquarelauto/Image_20260514_0030.jpg.asset.json";
+import img08 from "@/assets/aquarelauto/Image_20260514_0031.jpg.asset.json";
+import img09 from "@/assets/aquarelauto/Image_20260522_0003.jpg.asset.json";
+
 export type Work = {
   title: string;
   technique: string;
