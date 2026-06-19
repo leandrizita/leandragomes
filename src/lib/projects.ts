@@ -85,7 +85,7 @@ const aquarelautoWorks: Work[] = [
     imageAlt: "Ferrari de Fórmula 1 em vermelho e amarelo cercada por respingos de cor.",
   },
   {
-    title: "McLaren Marlboro",
+    title: "Gil de Ferran , Peske Reynard 001 - 2001\u00a0",
     technique: "Aquarela e grafite sobre papel",
     dimensions: "21 × 30 cm",
     year: "1993",
