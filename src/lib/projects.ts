@@ -45,7 +45,7 @@ const placeholderWorks = (count: number, defaultYear: string): Work[] =>
 
 const aquarelautoWorks: Work[] = [
   {
-    title: "Senna, vitória",
+    title: "Senna, Mclaren\u00a0McLaren MP4/6\u00a0",
     technique: "Aquarela e nanquim sobre papel",
     dimensions: "30 × 42 cm",
     year: "2026",
