@@ -105,11 +105,20 @@ function ProjectDetail() {
                   <div
                     className={`relative ${slot.aspect} w-full overflow-hidden border border-border bg-muted transition-colors duration-500 group-hover:bg-muted/70`}
                   >
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-display text-7xl text-muted-foreground/30 transition-transform duration-500 group-hover:scale-110 md:text-9xl">
-                        {String(n).padStart(2, "0")}
-                      </span>
-                    </div>
+                    {work.image ? (
+                      <img
+                        src={work.image}
+                        alt={work.imageAlt || work.title}
+                        loading="lazy"
+                        className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <span className="text-display text-7xl text-muted-foreground/30 transition-transform duration-500 group-hover:scale-110 md:text-9xl">
+                          {String(n).padStart(2, "0")}
+                        </span>
+                      </div>
+                    )}
                     <div className="absolute left-4 top-4">
                       <span className="eyebrow text-muted-foreground">{String(n).padStart(2, "0")} / 10</span>
                     </div>
