@@ -32,6 +32,97 @@ const placeholderWorks = (count: number, defaultYear: string): Work[] =>
     imageAlt: "",
   }));
 
+import img01 from "@/assets/aquarelauto/Image_20260514_00012.jpg.asset.json";
+import img02 from "@/assets/aquarelauto/Image_20260514_0022.jpg.asset.json";
+import img03 from "@/assets/aquarelauto/Image_20260514_0023.jpg.asset.json";
+import img04 from "@/assets/aquarelauto/Image_20260514_0024.jpg.asset.json";
+import img05 from "@/assets/aquarelauto/Image_20260514_0028.jpg.asset.json";
+import img06 from "@/assets/aquarelauto/Image_20260514_0029.jpg.asset.json";
+import img07 from "@/assets/aquarelauto/Image_20260514_0030.jpg.asset.json";
+import img08 from "@/assets/aquarelauto/Image_20260514_0031.jpg.asset.json";
+import img09 from "@/assets/aquarelauto/Image_20260522_0003.jpg.asset.json";
+
+const aquarelautoWorks: Work[] = [
+  {
+    title: "Senna, vitória",
+    technique: "Aquarela e nanquim sobre papel",
+    dimensions: "30 × 42 cm",
+    year: "2026",
+    image: img01.url,
+    imageAlt: "Equipe celebrando vitória de Ayrton Senna com bandeira do Brasil sobre a McLaren Marlboro.",
+  },
+  {
+    title: "Damon Hill, Hungria",
+    technique: "Aquarela e nanquim sobre papel",
+    dimensions: "21 × 30 cm",
+    year: "1993",
+    image: img02.url,
+    imageAlt: "Comissário acena bandeira quadriculada para carro de Damon Hill cruzando a linha de chegada em Hungaroring.",
+  },
+  {
+    title: "Mario Andretti, Fuji",
+    technique: "Aquarela e nanquim sobre papel",
+    dimensions: "21 × 30 cm",
+    year: "1976",
+    image: img03.url,
+    imageAlt: "Lotus preta de Mario Andretti contornando o circuito de Fuji em 1976.",
+  },
+  {
+    title: "Juan Manuel Fangio, Silverstone",
+    technique: "Aquarela e nanquim sobre papel",
+    dimensions: "21 × 30 cm",
+    year: "1954",
+    image: img04.url,
+    imageAlt: "Mercedes-Benz W196 prateada de Juan Manuel Fangio em Silverstone, 1954.",
+  },
+  {
+    title: "Ferrari, salpicos",
+    technique: "Aquarela sobre papel de algodão",
+    dimensions: "21 × 30 cm",
+    year: "2026",
+    image: img05.url,
+    imageAlt: "Ferrari de Fórmula 1 em vermelho e amarelo cercada por respingos de cor.",
+  },
+  {
+    title: "McLaren Marlboro",
+    technique: "Aquarela e grafite sobre papel",
+    dimensions: "21 × 30 cm",
+    year: "1993",
+    image: img06.url,
+    imageAlt: "McLaren MP4/8 vista de frente, com vermelho Marlboro e detalhes a grafite.",
+  },
+  {
+    title: "Trintignant, Ferrari 625",
+    technique: "Aquarela e nanquim sobre papel",
+    dimensions: "21 × 30 cm",
+    year: "1955",
+    image: img07.url,
+    imageAlt: "Ferrari 625 vermelha de Maurice Trintignant nas curvas de pedra de Monte Carlo, 1955.",
+  },
+  {
+    title: "Senna, Lotus 98T",
+    technique: "Aquarela e nanquim sobre papel",
+    dimensions: "21 × 30 cm",
+    year: "1986",
+    image: img08.url,
+    imageAlt: "Lotus 98T preta e dourada de Ayrton Senna passando pela tribuna em 1986.",
+  },
+  {
+    title: "Ferrari, era Schumacher",
+    technique: "Aquarela sobre papel de algodão",
+    dimensions: "30 × 42 cm",
+    year: "2026",
+    image: img09.url,
+    imageAlt: "Ferrari vermelha de Fórmula 1 sobre traçado verde, com respingos azuis e vermelhos.",
+  },
+  {
+    title: "Sem título nº 10",
+    technique: "Aquarela sobre papel de algodão",
+    dimensions: "30 × 40 cm",
+    year: "2026",
+  },
+];
+
 export const projects: Project[] = [
   {
     slug: "aquarelauto",
@@ -44,7 +135,7 @@ export const projects: Project[] = [
       "Aquarelauto reúne estudos de carrocerias, faróis e reflexos pintados em aquarela sobre papel de algodão. Cada peça nasce da observação de encontros de colecionadores, garagens e ruas, transformando o objeto industrial em retrato afetivo.",
     status: "Em curso",
     year: "2025—",
-    works: placeholderWorks(10, "2025"),
+    works: aquarelautoWorks,
   },
   {
     slug: "urban-sketcher",
