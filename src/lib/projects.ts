@@ -77,7 +77,7 @@ const aquarelautoWorks: Work[] = [
     imageAlt: "Mercedes-Benz W196 prateada de Juan Manuel Fangio em Silverstone, 1954.",
   },
   {
-    title: "Ferrari, salpicos",
+    title: "Zanardi, Peske",
     technique: "Aquarela sobre papel de algodão",
     dimensions: "21 × 30 cm",
     year: "2026",
