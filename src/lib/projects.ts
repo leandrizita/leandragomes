@@ -53,7 +53,7 @@ const aquarelautoWorks: Work[] = [
     imageAlt: "Equipe celebrando vitória de Ayrton Senna com bandeira do Brasil sobre a McLaren Marlboro.",
   },
   {
-    title: "Damon Hill, Hungria - Williams fW 15C 1993\u00a0",
+    title: "Damon Hill, Hungria - Williams FW 15C 1993\u00a0",
     technique: "Aquarela e nanquim sobre papel",
     dimensions: "21 × 30 cm",
     year: "1993",
