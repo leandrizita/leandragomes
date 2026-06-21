@@ -91,9 +91,17 @@ function Blog() {
           <p className="md:col-span-5 self-end text-lg text-ink-soft">
             Histórias por trás das obras, processos criativos, observações de
             viagem e notas de um atelier em constante movimento.
+            <button
+              type="button"
+              onClick={handleNewPost}
+              className="eyebrow mt-6 inline-flex w-fit rounded-full bg-foreground px-5 py-2 text-background hover:opacity-90"
+            >
+              + Novo post
+            </button>
           </p>
         </div>
       </section>
+
 
       {/* Filtros */}
       <section className="border-b border-border">
