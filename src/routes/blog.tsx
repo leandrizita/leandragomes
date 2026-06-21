@@ -1,6 +1,7 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+
 
 export const Route = createFileRoute("/blog")({
   head: () => ({
@@ -67,6 +68,14 @@ const categories = ["Todos", "AQUARELA", "URBAN SKETCH", "ENCADERNAÇÃO", "FOTO
 
 function Blog() {
   const [featured, ...rest] = posts;
+  const navigate = useNavigate();
+
+  const handleNewPost = () => {
+    const slug = `post-${Date.now().toString(36)}`;
+    navigate({ to: "/blog/$slug", params: { slug } });
+  };
+
+
 
   return (
     <div className="min-h-screen">
