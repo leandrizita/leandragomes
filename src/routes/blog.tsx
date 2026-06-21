@@ -88,9 +88,11 @@ function Blog() {
             <p className="eyebrow text-muted-foreground">Reflexões</p>
             <h1 className="text-display mt-4 text-6xl md:text-8xl">Blog.</h1>
           </div>
-          <p className="md:col-span-5 self-end text-lg text-ink-soft">
-            Histórias por trás das obras, processos criativos, observações de
-            viagem e notas de um atelier em constante movimento.
+          <div className="md:col-span-5 self-end">
+            <p className="text-lg text-ink-soft">
+              Histórias por trás das obras, processos criativos, observações de
+              viagem e notas de um atelier em constante movimento.
+            </p>
             <button
               type="button"
               onClick={handleNewPost}
@@ -98,9 +100,10 @@ function Blog() {
             >
               + Novo post
             </button>
-          </p>
+          </div>
         </div>
       </section>
+
 
 
       {/* Filtros */}
