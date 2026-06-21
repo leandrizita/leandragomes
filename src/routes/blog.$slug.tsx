@@ -59,8 +59,26 @@ function BlogPost() {
     if (loaded) localStorage.setItem(storageKey, JSON.stringify(draft));
   }, [draft, loaded, storageKey]);
 
+  useEffect(() => {
+    setSlugDraft(slug);
+  }, [slug]);
+
   const update = (k: keyof PostDraft) => (e: React.FormEvent<HTMLElement>) =>
     setDraft((d) => ({ ...d, [k]: e.currentTarget.textContent ?? "" }));
+
+  const applySlugChange = () => {
+    const newSlug = validateSlug(slugDraft);
+    if (newSlug && newSlug !== slug) {
+      const oldData = localStorage.getItem(`blog-draft:${slug}`);
+      if (oldData) {
+        localStorage.setItem(`blog-draft:${newSlug}`, oldData);
+        localStorage.removeItem(`blog-draft:${slug}`);
+      }
+      navigate({ to: "/blog/$slug", params: { slug: newSlug } });
+    } else {
+      setSlugDraft(slug);
+    }
+  };
 
   const onImage = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
