@@ -129,7 +129,8 @@ function Blog() {
               </h2>
               <p className="mt-4 text-lg text-ink-soft">{featured.excerpt}</p>
               <Link
-                to="/blog"
+                to="/blog/$slug"
+                params={{ slug: featured.slug }}
                 className="eyebrow mt-6 inline-flex w-fit border-b border-foreground pb-1 text-foreground"
               >
                 Ler post →
@@ -164,7 +165,8 @@ function Blog() {
                 <h3 className="text-display mt-2 text-2xl">{post.title}</h3>
                 <p className="mt-3 text-base text-ink-soft">{post.excerpt}</p>
                 <Link
-                  to="/blog"
+                  to="/blog/$slug"
+                  params={{ slug: post.slug }}
                   className="eyebrow mt-4 inline-flex w-fit border-b border-foreground pb-1 text-foreground"
                 >
                   Ler →
