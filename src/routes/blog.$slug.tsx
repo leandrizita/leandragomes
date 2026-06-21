@@ -97,7 +97,26 @@ function BlogPost() {
           ← Voltar ao blog
         </Link>
 
-        <div className="mt-8 flex items-center gap-3 text-xs text-muted-foreground">
+        <div className="mt-4 flex items-center gap-2 text-xs text-muted-foreground">
+          <span className="eyebrow">Slug:</span>
+          <span
+            className="rounded-sm bg-muted px-2 py-1 outline-none focus:bg-muted/80 focus:text-foreground"
+            contentEditable
+            suppressContentEditableWarning
+            onInput={(e) => setSlugDraft(e.currentTarget.textContent ?? "")}
+            onBlur={applySlugChange}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                e.preventDefault();
+                (e.currentTarget as HTMLElement).blur();
+              }
+            }}
+          >
+            {slug}
+          </span>
+        </div>
+
+        <div className="mt-6 flex items-center gap-3 text-xs text-muted-foreground">
           <span
             className="eyebrow outline-none focus:text-foreground"
             contentEditable
