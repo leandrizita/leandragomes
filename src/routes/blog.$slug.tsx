@@ -29,11 +29,22 @@ const DEFAULT_DRAFT: PostDraft = {
   image: "",
 };
 
+function validateSlug(value: string): string {
+  return value
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9-]/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 function BlogPost() {
   const { slug } = Route.useParams();
+  const navigate = useNavigate();
   const storageKey = `blog-draft:${slug}`;
   const [draft, setDraft] = useState<PostDraft>(DEFAULT_DRAFT);
   const [loaded, setLoaded] = useState(false);
+  const [slugDraft, setSlugDraft] = useState(slug);
   const fileRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
